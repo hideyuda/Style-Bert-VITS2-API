@@ -1,0 +1,21 @@
+# Dockerfile.deploy用の.dockerignore
+# 日本語のJP-Extraのエディター稼働のみに必要なファイルを指定する
+
+*
+
+!/style_bert_vits2/
+
+!/bert/
+!/common/
+!/configs/
+!/dict_data/default.csv
+!/model_assets/
+!/slm/
+
+!/config.py
+!/default_config.yml
+!/requirements.txt
+!/server_editor.py
+!/server_fastapi.py
+!/start.sh
+!/runpod_handler.py
